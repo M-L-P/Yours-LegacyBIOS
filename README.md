@@ -30,9 +30,16 @@ Your device should meet the requirements,
 <details>
 <summary>🖱️Click to Unfold to see🖱️</summary>
 
+It need use [DiskGenius](https://www.diskgenius.com/) and Bootice.
 #### Backup EFI files
+- Open DiskGenius;
+- Copy all files from ESP to somewhere else you would like;
 #### Format ESP as FAT32
+- Open DiskGenius;
+- Format ESP as FAT32(Basic data partition);
 #### Cover MBR and PBR
+- Open Bootice
+- MBR 
 #### Turn FAT32 into ESP
 
 </details>
