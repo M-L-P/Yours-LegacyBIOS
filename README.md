@@ -38,10 +38,12 @@ It need use [DiskGenius](https://www.diskgenius.com/) and Bootice.
 - Open DiskGenius;
 - Format ESP as FAT32(Basic data partition);
 #### Cover MBR and PBR
-- Open Bootice
-- MBR 
+- Open Bootice;
+- `\Boot_Record\MBR.bin` covers MBR;
+- `\Boot_Record\PBR.bin` covers PBR;
 #### Turn FAT32 into ESP
-
+- Open DiskGenius;
+- Change partition parameters, set the FAT32 as
 </details>
 
  
