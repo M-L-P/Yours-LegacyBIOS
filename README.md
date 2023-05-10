@@ -4,15 +4,16 @@
 # Yours-LegacyBIOS
 Your own usual rEFInd's sign for LegacyBIOS.
 
-## 🧭Guide⬇️
+
+## 💻️Preview👀
 
 <details>
 <summary>🖱️Click to Unfold to see🖱️</summary>
 
-
+<img src="README/about.duet.png">
 </details>
 
-## 💻️Preview👀
+## 🧭Guide⬇️
 
 <details>
 <summary>🖱️Click to Unfold to see🖱️</summary>
