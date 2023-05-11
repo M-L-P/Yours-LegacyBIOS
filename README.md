@@ -1,7 +1,8 @@
 [English](README.md)|[简体中文](自述文件.md)|[繁體中文](繁體中文.md)
 --|--|--
 # Yours-LegacyBIOS
-Your own usual rEFInd's sign for LegacyBIOS.
+Your own usual rEFInd's sign for LegacyBIOS.<br/>
+It can save your old PC and make it support 64bit UEFI.
 #### Your device should meet the requirements,
 - NOT supporting 64bit UEFI,
 - - 32bit UEFI supported;
@@ -12,8 +13,7 @@ Your own usual rEFInd's sign for LegacyBIOS.
 - Internal SATA disk, NOT NVMe or USB Storage;
 - - It seems that DUET of CloverBootloader supports only SATA, NOT NVMe or USB;
 #### Working Principle
-[__Power On__]=>[__Legacy BIOS__]=>[__MBR__]=>[__PBR__]=>[__CLOVERX64.EFI__(`refind_x64.efi` renamed)]=>[__Yours__]
-
+[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot`]=>[`CLOVERX64.EFI`(`refind_x64.efi` renamed)]=>[Yours]
 #### File Tree
 <img src="README/Yours-LegacyBIOS.png">
 
