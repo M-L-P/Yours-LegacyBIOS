@@ -75,7 +75,7 @@ If you want,
 - CloverBootloader does not conflict with Yours;
 
 You should see,<br/>
-https://github.com/M-L-P/Yours#the-icon-of-hackintosh
+[https://github.com/M-L-P/Yours#the-icon-of-hackintosh](https://github.com/M-L-P/Yours#for-opencore)
 </details>
 
 </details>
