@@ -1,7 +1,9 @@
 [English](README.md)|[简体中文](自述文件.md)|[繁體中文](繁體中文.md)
 --|--|--
 # Yours-LegacyBIOS
-Your own usual rEFInd's sign for LegacyBIOS.
+Your own usual rEFInd's sign for LegacyBIOS.<br/>
+Relying on DUET of [CloverBootloader](https://github.com/CloverHackyColor/CloverBootloader), rEFInd can run on Legacy BIOS.<br/>
+It can save your old PC and make it support 64bit UEFI.
 #### Your device should meet the requirements,
 - NOT supporting 64bit UEFI,
 - - 32bit UEFI supported;
@@ -12,8 +14,8 @@ Your own usual rEFInd's sign for LegacyBIOS.
 - Internal SATA disk, NOT NVMe or USB Storage;
 - - It seems that DUET of CloverBootloader supports only SATA, NOT NVMe or USB;
 #### Working Principle
-[__Power On__]=>[__Legacy BIOS__]=>[__MBR__]=>[__PBR__]=>[__CLOVERX64.EFI__(`refind_x64.efi` renamed)]=>[__Yours__]
-
+[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot`]=>[`CLOVERX64.EFI`(`refind_x64.efi` renamed)]=>[Yours]
+#### File Tree
 <img src="README/Yours-LegacyBIOS.png">
 
 ## 💻️Preview👀
@@ -99,4 +101,7 @@ You need to perform the following steps.
 If you like it and are looking forward to the coming update, you can star it.💫
 
 ## 🎉Credit🎊
-- 
+- [rEFInd Boot Manager](http://www.rodsbooks.com/refind/) of *Roderick W. Smith*;
+- [grub2-filemanager
+](https://github.com/a1ive/grub2-filemanager) of [a1ive](https://github.com/a1ive);
+- DUET of [CloverBootloader](https://github.com/CloverHackyColor/CloverBootloader);
