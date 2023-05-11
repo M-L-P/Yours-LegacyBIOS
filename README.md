@@ -56,10 +56,10 @@ https://www.diskgenius.com/manual/convert-partition-table-style.php
 - - Or create a FAT32 before the first partition;
 #### Cover MBR and PBR
 - Open BOOTICE;
-- `\Boot_Record\MBR.bin` covers MBR of Internal SATA disk;<br/>
+- `zip: Boot_Record\MBR.bin` covers MBR of Internal SATA disk;<br/>
   ![mbr](https://github.com/M-L-P/Yours-LegacyBIOS/assets/69227436/af8d8cb4-3e10-48a8-ab06-71a8e69ed3ba)
 
-- `\Boot_Record\PBR.bin` covers PBR of that FAT32;<br/>
+- `zip: Boot_Record\PBR.bin` covers PBR of that FAT32;<br/>
   ![pbr](https://github.com/M-L-P/Yours-LegacyBIOS/assets/69227436/a2a6f8f1-6b28-48a3-90fc-b7ed140adc86)
 
 #### Turn FAT32 into ESP
@@ -88,11 +88,11 @@ You need to perform the following steps.
 
 #### For OpenCore
 - Set `LauncherOption=System` by editing `config.plist`;
-- Cut your EFI files into `EFI\Yours\efi\OC`;
+- Cut your EFI files into `ESP: \EFI\Yours\efi\OC`;
 - Edit `refind.conf` to enable `include /EFI/Yours/Settings/menuentry/examples/OpenCore.conf` with `#` deleted;
 
 #### For CloverBootloader
-- Cut your EFI files into `EFI\Yours\efi\CLOVER`;
+- Cut your EFI files into `ESP: \EFI\Yours\efi\CLOVER`;
 - Edit `refind.conf` to enable `include /EFI/Yours/Settings/menuentry/examples/CLOVER.conf` with `#` deleted;
 
 </details>
