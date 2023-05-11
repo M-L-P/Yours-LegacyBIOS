@@ -13,6 +13,7 @@ Your own usual rEFInd's sign for LegacyBIOS.
 - - It seems that DUET of CloverBootloader supports only SATA, NOT NVMe or USB;
 #### Working Principle
 [__Power On__]=>[__Legacy BIOS__]=>[__MBR__]=>[__PBR__]=>[__CLOVERX64.EFI__(`refind_x64.efi` renamed)]=>[__Yours__]
+
 ## 💻️Preview👀
 
 <details>
@@ -35,7 +36,6 @@ If your disk has been already GPT, You shall __SKIP__ this step.
 https://www.diskgenius.com/manual/convert-partition-table-style.php
 
 ![image](https://github.com/M-L-P/Yours-LegacyBIOS/assets/69227436/93246cd8-f616-43c7-a5ac-8ca224ef8fb0)
-
 </details>
 
 ### Cover Boot Record
@@ -59,20 +59,22 @@ https://www.diskgenius.com/manual/convert-partition-table-style.php
 - [Modify partition parameters](https://www.diskgenius.com/manual/modify-partition-para.php), set the FAT32 as ESP;
 - Name it `EFI system partition`(See the picture)<br/>
 ![屏幕截图 2023-05-10 204425](https://github.com/M-L-P/Yours-LegacyBIOS/assets/69227436/2fb6df69-e8be-4b67-b00f-ebde03fa0538)
-
 </details>
 
- 
 ### Manage ESP
 
 <details>
 <summary>🖱️Click to Unfold to see🖱️</summary>
 
+#### Restore EFI files
 - Restore EFI files from your backup into ESP.
+
 #### For Hackintosh
 If you want,
 - graphical interface is going to be not interrupted by codes;
 - CloverBootloader does not conflict with Yours;
+
+You should see,<br/>
 https://github.com/M-L-P/Yours#the-icon-of-hackintosh
 </details>
 
