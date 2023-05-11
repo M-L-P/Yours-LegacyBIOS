@@ -14,6 +14,7 @@ Your own usual rEFInd's sign for LegacyBIOS.
 #### Working Principle
 [__Power On__]=>[__Legacy BIOS__]=>[__MBR__]=>[__PBR__]=>[__CLOVERX64.EFI__(`refind_x64.efi` renamed)]=>[__Yours__]
 
+#### File Tree
 <img src="README/Yours-LegacyBIOS.png">
 
 ## 💻️Preview👀
