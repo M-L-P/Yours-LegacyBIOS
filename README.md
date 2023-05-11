@@ -74,8 +74,21 @@ If you want,
 - graphical interface is going to be not interrupted by codes;
 - CloverBootloader does not conflict with Yours;
 
-You should see,<br/>
-[https://github.com/M-L-P/Yours#the-icon-of-hackintosh](https://github.com/M-L-P/Yours#for-opencore)
+You need to perform the following steps.
+<details>
+<summary>🖱️Click to Unfold to see🖱️</summary>
+
+#### For OpenCore
+- Set `LauncherOption=System` by editing `config.plist`;
+- Cut your EFI files into `EFI\Yours\efi\OC`;
+- Edit `refind.conf` to enable `include /EFI/Yours/Settings/menuentry/examples/OpenCore.conf` with `#` deleted;
+
+#### For CloverBootloader
+- Cut your EFI files into `EFI\Yours\efi\CLOVER`;
+- Edit `refind.conf` to enable `include /EFI/Yours/Settings/menuentry/examples/CLOVER.conf` with `#` deleted;
+
+</details>
+
 </details>
 
 </details>
