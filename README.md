@@ -100,4 +100,7 @@ You need to perform the following steps.
 If you like it and are looking forward to the coming update, you can star it.💫
 
 ## 🎉Credit🎊
-- 
+- [rEFInd Boot Manager](http://www.rodsbooks.com/refind/) of *Roderick W. Smith*;
+- [grub2-filemanager
+](https://github.com/a1ive/grub2-filemanager) of [a1ive](https://github.com/a1ive);
+- DUET of [CloverBootloader](https://github.com/CloverHackyColor/CloverBootloader);
