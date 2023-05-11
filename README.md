@@ -67,6 +67,7 @@ https://www.diskgenius.com/manual/convert-partition-table-style.php
 
 <details>
 <summary>🖱️Click to Unfold to see🖱️</summary>
+
 - Restore EFI files from your backup into ESP.
 #### For Hackintosh
 If you want,
