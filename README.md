@@ -78,9 +78,9 @@ https://www.diskgenius.com/manual/convert-partition-table-style.php
 - Restore EFI files from your backup into ESP.
 
 #### Copy Yours in ESP
-- Copy the file `zip: boot` into `ESP: \`
-- Copy the folder `zip: EFI\CLOVER` into `ESP: \EFI`
-- Copy the folder `zip: EFI\Yours` into `ESP: \EFI`
+- Copy the file `zip: boot` into `ESP: \`;
+- Copy the folder `zip: EFI\CLOVER` into `ESP: \EFI`;
+- Copy the folder `zip: EFI\Yours` into `ESP: \EFI`;
 
 #### For Hackintosh
 If you want,
