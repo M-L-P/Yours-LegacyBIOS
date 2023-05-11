@@ -31,7 +31,7 @@ It can save your old PC and make it support 64bit UEFI.
 <details>
 <summary>🖱️Click to Unfold to see🖱️</summary>
 
-It need use [DiskGenius](https://www.diskgenius.com/) and Bootice.
+It need use [DiskGenius](https://www.diskgenius.com/) and BOOTICE.
 ### Convert MBR to GPT
 __Note__: All I have prepared is for GPT partition table, because I do NOT use MBR partition table.<br/>
 If your disk has been already GPT, You shall __SKIP__ this step.
@@ -55,9 +55,13 @@ https://www.diskgenius.com/manual/convert-partition-table-style.php
 - Format ESP as FAT32(Basic data partition);
 - - Or create a FAT32 before the first partition;
 #### Cover MBR and PBR
-- Open Bootice;
-- `\Boot_Record\MBR.bin` covers MBR of Internal SATA disk;
-- `\Boot_Record\PBR.bin` covers PBR of that FAT32;
+- Open BOOTICE;
+- `\Boot_Record\MBR.bin` covers MBR of Internal SATA disk;<br/>
+  ![mbr](https://github.com/M-L-P/Yours-LegacyBIOS/assets/69227436/af8d8cb4-3e10-48a8-ab06-71a8e69ed3ba)
+
+- `\Boot_Record\PBR.bin` covers PBR of that FAT32;<br/>
+  ![pbr](https://github.com/M-L-P/Yours-LegacyBIOS/assets/69227436/a2a6f8f1-6b28-48a3-90fc-b7ed140adc86)
+
 #### Turn FAT32 into ESP
 - Open DiskGenius;
 - [Modify partition parameters](https://www.diskgenius.com/manual/modify-partition-para.php), set the FAT32 as ESP;
