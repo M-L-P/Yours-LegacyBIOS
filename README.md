@@ -1,5 +1,6 @@
-[English](README.md)|[简体中文](自述文件.md)|[繁體中文](繁體中文.md)
---|--|--
+[English](README.md)|[简体中文](自述文件.md)|[繁體中文](繁體中文.md)|...
+--|--|--|--
+
 # Yours-LegacyBIOS
 Your own usual rEFInd's sign for LegacyBIOS.<br/>
 Relying on DUET of [CloverBootloader](https://github.com/CloverHackyColor/CloverBootloader), rEFInd can run on Legacy BIOS.<br/>
