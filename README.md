@@ -29,9 +29,6 @@ It can save your old PC and make it support 64bit UEFI.
 
 ## 🧭Guide⬇️
 
-<details>
-<summary>🖱️Click to Unfold to see🖱️</summary>
-
 It need use [DiskGenius](https://www.diskgenius.com/) and BOOTICE.
 ### Convert MBR to GPT
 __Note__: All I have prepared is for GPT partition table, because I do NOT use MBR partition table.<br/>
@@ -100,8 +97,6 @@ You need to perform the following steps.
 #### For CloverBootloader
 - Cut your EFI files into `ESP: \EFI\Yours\efi\CLOVER`;
 - Edit `refind.conf` to enable `include /EFI/Yours/Settings/menuentry/examples/CLOVER.conf` with `#` deleted;
-
-</details>
 
 </details>
 
