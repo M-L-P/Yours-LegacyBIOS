@@ -13,8 +13,7 @@ It can save your old PC and make it support 64bit UEFI.
 - GPU/vBIOS UEFI not supported; (See the picture)<br/>
 ![image](https://user-images.githubusercontent.com/69227436/213923710-120c5a02-30ea-4005-b2fe-c8e9adc7b6d7.png)
 - GPT disk;
-- Internal SATA disk, NOT NVMe or USB Storage;
-- - It seems that DUET of CloverBootloader supports only SATA, NOT NVMe or USB;
+- Internal SATA disk, NOT NVMe temporarily;
 #### Working Principle
 [Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot`]=>[`CLOVERX64.EFI`(`refind_x64.efi` renamed)]=>[Yours]
 #### File Tree
@@ -103,13 +102,16 @@ You need to perform the following steps.
 
 </details>
 
+## 📝FAQ❓️
+### USB disks
+- Press the key `7` by using the keyboard when the black is showing a white `_` at the top left;
+
 ## ⭐Star🌟
 If you like it and are looking forward to the coming update, you can star it.💫
 
 ## 🎉Credit🎊
 - [rEFInd Boot Manager](http://www.rodsbooks.com/refind/) of *Roderick W. Smith*;
-- [grub2-filemanager
-](https://github.com/a1ive/grub2-filemanager) of [a1ive](https://github.com/a1ive);
+- [grub2-filemanager](https://github.com/a1ive/grub2-filemanager) of [a1ive](https://github.com/a1ive);
 - DUET of [CloverBootloader](https://github.com/CloverHackyColor/CloverBootloader);
 
 ## 🧁Buy me a piece of chocolate🍫
