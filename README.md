@@ -127,4 +127,4 @@ I would be very grateful to you, fairy lady🧚 or handsome knight🦸‍♂️.
 ![Dove](https://github.com/M-L-P/Yours/assets/69227436/f094f056-9420-4dd5-beec-4ccecff20a1e)
 <img src="https://github.com/M-L-P/Yours/assets/69227436/8608e193-3c4d-4926-8171-7944e881d95f" width="300px">
 
-[The List of Fairy Lady🧚 or Handsome kKnight🦸‍♂️](https://github.com/M-L-P/list/blob/main/README.md)
+[The List of Fairy Lady🧚 or Handsome kKnight🦸‍♂️](https://github.com/M-L-P/.github/blob/main/list/README.md)
