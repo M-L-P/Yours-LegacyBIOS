@@ -1,6 +1,9 @@
 [English](README.md)|[简体中文](自述文件.md)|[繁體中文](繁體中文.md)|...
 --|--|--|--
 
+![GitHub all releases](https://img.shields.io/github/downloads/M-L-P/Yours-LegacyBIOS/total)
+![GitHub Repo stars](https://img.shields.io/github/stars/M-L-P/Yours-LegacyBIOS?style=social)
+
 # Yours-LegacyBIOS
 Y-o-u-r-s,<br/>
 Your own usual rEFInd's sign for LegacyBIOS.<br/>
