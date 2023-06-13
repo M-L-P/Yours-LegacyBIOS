@@ -18,7 +18,8 @@ It can save your old PC and make it support 64bit UEFI.
 - GPU/vBIOS UEFI not supported; (See the picture)<br/>
 ![image](https://user-images.githubusercontent.com/69227436/213923710-120c5a02-30ea-4005-b2fe-c8e9adc7b6d7.png)
 - GPT disk;
-- Internal SATA disk, NOT NVMe temporarily;
+- Internal SATA disk;
+- NVMe SSD should be with `boot7`;
 #### Working Principle
 [Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot`]=>[`CLOVERX64.EFI`(`refind_x64.efi` renamed)]=>[Yours]
 #### File Tree
@@ -108,7 +109,7 @@ You need to perform the following steps.
 </details>
 
 ## 📝FAQ❓️
-### USB disks
+### USB disks or NVMe SSDs
 - Press the key `7` by using the keyboard when the black is showing a white `_` at the top left;
 
 ## ⭐Star🌟
