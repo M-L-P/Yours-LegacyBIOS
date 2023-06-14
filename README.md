@@ -23,14 +23,14 @@ It can save your old PC and make it support 64bit UEFI.
 #### Working Principle
 [Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot`]=>[`CLOVERX64.EFI`(`refind_x64.efi` renamed)]=>[Yours]
 #### File Tree
-<img src="README/Yours-LegacyBIOS.png">
+<img src="https://raw.githubusercontent.com/M-L-P/.github/main/screenshots/Yours-LegacyBIOS/Yours-LegacyBIOS.png">
 
 ## 💻️Preview👀
 
 <details>
 <summary>🖱️Click to Unfold to see🖱️</summary>
 
-<img src="README/about.duet.png">
+<img src="https://raw.githubusercontent.com/M-L-P/.github/main/screenshots/Yours-LegacyBIOS/about.duet.png">
 </details>
 
 ## 🧭Guide⬇️
