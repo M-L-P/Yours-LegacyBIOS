@@ -1,3 +1,3 @@
-[submodule "EFI/Yours"]
-	path = EFI/Yours
+[submodule "ESP/EFI/Yours"]
+	path = ESP/EFI/Yours
 	url = https://github.com/M-L-P/Yours.git
