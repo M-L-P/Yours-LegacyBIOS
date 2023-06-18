@@ -28,6 +28,7 @@ It can save your old PC and make it support 64bit UEFI.
 [![GitHub Repo stars](https://img.shields.io/github/stars/M-L-P/Yours-LegacyBIOS?style=social)](https://github.com/M-L-P/Yours-LegacyBIOS/stargazers)
 
 </div>
+
 -----------------------------------------------------------------------------------------------------------------------------------
 ## 💻️Preview👀
 

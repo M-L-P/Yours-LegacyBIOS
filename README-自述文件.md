@@ -28,6 +28,7 @@ Your own usual rEFInd's sign for LegacyBIOS.<br/>
 [![GitHub Repo stars](https://img.shields.io/github/stars/M-L-P/Yours-LegacyBIOS?style=social)](https://github.com/M-L-P/Yours-LegacyBIOS/stargazers)
 
 </div>
+
 -----------------------------------------------------------------------------------------------------------------------------------
 ## 💻️预览👀
 
