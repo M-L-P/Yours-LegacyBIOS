@@ -1,12 +1,8 @@
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/M-L-P/Yours-LegacyBIOS)](https://github.com/M-L-P/Yours-LegacyBIOS/releases/latest)
-[![GitHub all releases](https://img.shields.io/github/downloads/M-L-P/Yours-LegacyBIOS/total)](https://github.com/M-L-P/Yours-LegacyBIOS/releases)
-[![GitHub Discussions](https://img.shields.io/github/discussions/M-L-P/Yours-LegacyBIOS)](https://github.com/M-L-P/Yours-LegacyBIOS/discussions)
-[![GitHub Repo stars](https://img.shields.io/github/stars/M-L-P/Yours-LegacyBIOS?style=social)](https://github.com/M-L-P/Yours-LegacyBIOS/stargazers)
-
 [English](README.md)|[简体中文](README-自述文件.md)|[繁體中文](README-繁體中文.md)|...
 --|--|--|--
 
-# Yours-LegacyBIOS
+<h1 align="center">Yours-LegacyBIOS</h1>
+
 Y-o-u-r-s,<br/>
 Your own usual rEFInd's sign for LegacyBIOS.<br/>
 依賴於 [CloverBootloader](https://github.com/CloverHackyColor/CloverBootloader) 的 DUET，Legacy BIOS 能夠運行 rEFInd。<br/>
@@ -24,7 +20,15 @@ Your own usual rEFInd's sign for LegacyBIOS.<br/>
 [Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot`]=>[`CLOVERX64.EFI`(`refind_x64.efi` renamed)]=>[Yours]
 #### 文件結構樹狀圖
 <img src="https://raw.githubusercontent.com/M-L-P/.github/main/screenshots/Yours-LegacyBIOS/Yours-LegacyBIOS.png">
+<div align="center">
 
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/M-L-P/Yours-LegacyBIOS)](https://github.com/M-L-P/Yours-LegacyBIOS/releases/latest)
+[![GitHub all releases](https://img.shields.io/github/downloads/M-L-P/Yours-LegacyBIOS/total)](https://github.com/M-L-P/Yours-LegacyBIOS/releases)
+[![GitHub Discussions](https://img.shields.io/github/discussions/M-L-P/Yours-LegacyBIOS)](https://github.com/M-L-P/Yours-LegacyBIOS/discussions)
+[![GitHub Repo stars](https://img.shields.io/github/stars/M-L-P/Yours-LegacyBIOS?style=social)](https://github.com/M-L-P/Yours-LegacyBIOS/stargazers)
+
+</div>
+-----------------------------------------------------------------------------------------------------------------------------------
 ## 💻️預覽👀
 
 <details>
