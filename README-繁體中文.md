@@ -76,7 +76,7 @@ https://www.diskgenius.com/manual/convert-partition-table-style.php
 - 打開 DiskGenius；
 - [編輯分區參數](https://www.diskgenius.com/manual/modify-partition-para.php), set the FAT32 as ESP；
 - 命名為 `EFI system partition`(如下圖)<br/>
-<img src="https://github.com/M-L-P/Yours-LegacyBIOS/assets/69227436/2fb6df69-e8be-4b67-b00f-ebde03fa0538">
+[<img src="https://github.com/M-L-P/Yours-LegacyBIOS/assets/69227436/2fb6df69-e8be-4b67-b00f-ebde03fa0538">](https://www.diskgenius.com/manual/modify-partition-para.php)
 </details>
 
 ### 調整 ESP 分區
