@@ -37,6 +37,7 @@ Your own usual rEFInd's sign for LegacyBIOS.<br/>
 <summary>🖱️點擊展開查看🖱️</summary>
 
 <img src="https://raw.githubusercontent.com/M-L-P/.github/main/screenshots/Yours-LegacyBIOS/about.duet.png">
+<img src="https://raw.githubusercontent.com/M-L-P/.github/main/screenshots/Yours/M.big.png">
 </details>
 
 ## 🧭指南⬇️

@@ -37,6 +37,7 @@ It can save your old PC and make it support 64bit UEFI.
 <summary>🖱️Click to Unfold to see🖱️</summary>
 
 <img src="https://raw.githubusercontent.com/M-L-P/.github/main/screenshots/Yours-LegacyBIOS/about.duet.png">
+<img src="https://raw.githubusercontent.com/M-L-P/.github/main/screenshots/Yours/M.big.png">
 </details>
 
 ## 🧭Guide⬇️
