@@ -12,7 +12,7 @@
 
 <h1 align="center">Yours-LegacyBIOS</h1>
 
-Y-o-u-r-s,<br/>
+[Y-o-u-r-s](https://github.com/M-L-P/rEFInd-theme-Yours),<br/>
 Your own usual rEFInd's sign for LegacyBIOS.<br/>
 依賴於 [CloverBootloader](https://github.com/CloverHackyColor/CloverBootloader) 的 DUET，Legacy BIOS 能夠運行 rEFInd。<br/>
 它能夠拯救你的舊電腦，使其支持 64位 的 UEFI，化腐朽為神奇。

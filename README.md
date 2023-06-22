@@ -12,7 +12,7 @@
 
 <h1 align="center">Yours-LegacyBIOS</h1>
 
-Y-o-u-r-s,<br/>
+[Y-o-u-r-s](https://github.com/M-L-P/rEFInd-theme-Yours),<br/>
 Your own usual rEFInd's sign for LegacyBIOS.<br/>
 Relying on DUET of [CloverBootloader](https://github.com/CloverHackyColor/CloverBootloader), rEFInd can run on Legacy BIOS.<br/>
 It can save your old PC and make it support 64bit UEFI.
