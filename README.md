@@ -27,7 +27,14 @@ It can save your old PC and make it support 64bit UEFI.
 - Internal SATA disk;
 - NVMe SSD should be with `boot7`;
 #### Working Principle
-[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot`]=>[`CLOVERX64.EFI`(`refind_x64.efi` renamed)]=>[Yours]
+[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot`]=>[`CLOVERX64.efi`(Linked to `Yours_x64.efi`)]=>[Yours]
+[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot7`]=>[`CLOVERX64.efi`(Linked to `Yours_x64.efi`)]=>[Yours]
+[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot5`]=>[`CLOVERX64.efi`(Linked to `Yours_x64.efi`)]=>[Yours]
+[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot0`]=>[`OpenCore.efi`(Linked to `Yours_x64.efi`)]=>[Yours]
+- By default, `boot`, `boot6` of Clover;
+- Pressing 7, `boot7` of Clover;
+- Pressing 5, `boot5` of Clover;
+- Pressing 0, `boot0`, `bootx64` of OpenCore;
 #### File Tree
 <img src="https://raw.githubusercontent.com/M-L-P/.github/main/screenshots/Yours-LegacyBIOS/Yours-LegacyBIOS.png">
 
@@ -98,6 +105,7 @@ https://www.diskgenius.com/manual/convert-partition-table-style.php
 If you want,
 - graphical interface is going to be not interrupted by codes;
 - CloverBootloader does not conflict with Yours;
+- OpenCore does not conflict with Yours;
 
 You need to perform the following steps.
 <details>
@@ -127,6 +135,7 @@ If you like it and are looking forward to the coming update, you can star it.�
 - [rEFInd Boot Manager](http://www.rodsbooks.com/refind/) of *Roderick W. Smith*;
 - [grub2-filemanager](https://github.com/a1ive/grub2-filemanager) of [a1ive](https://github.com/a1ive);
 - DUET of [CloverBootloader](https://github.com/CloverHackyColor/CloverBootloader);
+- DUET of [OpenCore](https://github.com/acidanthera/OpenCorePkg);
 
 ## 🧁Buy me a piece of chocolate🍫
 <details>

@@ -27,7 +27,14 @@ Your own usual rEFInd's sign for LegacyBIOS.<br/>
 - 内置 SATA 硬盘；
 - NVMe 固态 需要 使用 `boot7`；
 #### 工作原理
-[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot`]=>[`CLOVERX64.EFI`(`refind_x64.efi` renamed)]=>[Yours]
+[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot`]=>[`CLOVERX64.efi`(链接到 `Yours_x64.efi`)]=>[Yours]<br/>
+[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot7`]=>[`CLOVERX64.efi`(链接到 to `Yours_x64.efi`)]=>[Yours]<br/>
+[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot5`]=>[`CLOVERX64.efi`(链接到 to `Yours_x64.efi`)]=>[Yours]<br/>
+[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot0`]=>[`OpenCore.efi`(链接到 to `Yours_x64.efi`)]=>[Yours]<br/>
+- 默认情况， `boot`，是 Clover 的 `boot6`；
+- 按下 7， 是 Clover 的 `boot7`；
+- 按下 5， 是 Clover 的 `boot5`；
+- 按下 0， `boot0`，OpenCore 的 `bootx64`；
 #### 文件结构树状图
 <img src="https://raw.githubusercontent.com/M-L-P/.github/main/screenshots/Yours-LegacyBIOS/Yours-LegacyBIOS.png">
 
@@ -98,6 +105,7 @@ https://www.diskgenius.com/manual/convert-partition-table-style.php
 如果你想要，
 - 让图形界面衔接得更加紧密，中途没有代码界面；
 - CloverBootloader 不与 Yours 发生冲突；
+- OpenCore 不与 Yours 发生冲突；
 
 你需要执行以下步骤。
 <details>
@@ -127,6 +135,7 @@ https://www.diskgenius.com/manual/convert-partition-table-style.php
 - *Roderick W. Smith* 的 [rEFInd Boot Manager](http://www.rodsbooks.com/refind/)；
 - [a1ive](https://github.com/a1ive) 的 [grub2-filemanager](https://github.com/a1ive/grub2-filemanager)；
 - [CloverBootloader](https://github.com/CloverHackyColor/CloverBootloader) 的 DUET；
+- [OpenCore](https://github.com/acidanthera/OpenCorePkg) 的 DUET；
 
 ## 🧁请我吃块巧克力🍫
 <details>
