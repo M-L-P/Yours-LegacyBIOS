@@ -97,9 +97,13 @@ https://www.diskgenius.com/manual/convert-partition-table-style.php
 - Restore EFI files from your backup into ESP.
 
 #### Copy Yours in ESP
-- Copy the file `zip: boot` into `ESP: \`;
-- Copy the folder `zip: EFI\CLOVER` into `ESP: \EFI`;
-- Copy the folder `zip: EFI\Yours` into `ESP: \EFI`;
+- Copy the file `zip: ESP\boot` into `ESP: \`;
+- Copy the file `zip: ESP\boot5` into `ESP: \`;
+- Copy the file `zip: ESP\boot6` into `ESP: \`;
+- Copy the file `zip: ESP\boot7` into `ESP: \`;
+- Copy the file `zip: ESP\boot0` into `ESP: \`;
+- Copy the file `zip: ESP\boot1` into `ESP: \`;
+- Copy the folder `zip: ESP\EFI\Yours` into `ESP: \EFI`;
 
 #### For Hackintosh
 In order to ensure that the graphical interface is NOT going to be interrupted by codes, and that it will support Secure Boot<br/>

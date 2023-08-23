@@ -97,9 +97,13 @@ https://www.diskgenius.com/manual/convert-partition-table-style.php
 - 從你的備份中把 EFI 文件恢復進 ESP 分區。
 
 #### 復製 Yours 到 ESP 分區
-- 復製文件 `zip: boot` 到 `ESP: \`；
-- 復製文件夾 `zip: EFI\CLOVER` 到 `ESP: \EFI`；
-- 復製文件夾 `zip: EFI\Yours` 到 `ESP: \EFI`；
+- 復製文件 `zip: ESP\boot` 到 `ESP: \`；
+- 復製文件 `zip: ESP\boot5` 到 `ESP: \`；
+- 復製文件 `zip: ESP\boot6` 到 `ESP: \`；
+- 復製文件 `zip: ESP\boot7` 到 `ESP: \`；
+- 復製文件 `zip: ESP\boot0` 到 `ESP: \`；
+- 復製文件 `zip: ESP\boot1` 到 `ESP: \`；
+- 復製文件夾 `zip: ESP\EFI\Yours` 到 `ESP: \EFI`；
 
 #### 若有 黑蘋果
 為了讓圖形界面銜接得更加緊密，中途沒有代碼界面，同時支持安全啟動<br/>
