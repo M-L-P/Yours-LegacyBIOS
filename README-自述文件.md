@@ -102,24 +102,22 @@ https://www.diskgenius.com/manual/convert-partition-table-style.php
 - 复制文件夹 `zip: EFI\Yours` 到 `ESP: \EFI`；
 
 #### 若有 黑苹果
-如果你想要，
-- 让图形界面衔接得更加紧密，中途没有代码界面；
-- CloverBootloader 不与 Yours 发生冲突；
-- OpenCore 不与 Yours 发生冲突；
-
-你需要执行以下步骤。
+为了让图形界面衔接得更加紧密，中途没有代码界面，同时支持安全启动<br/>
 <details>
 <summary>🖱️点击展开查看🖱️</summary>
 
-##### 若是 OpenCore
-- 编辑 `config.plist` 设置 `LauncherOption=System` ；
-- 剪切 EFI 相关文件，粘贴到 `EFI\Yours\efi\OC` ；
-- 编辑 `refind.conf` ，删除 位于`include /EFI/Yours/Settings/menuentry/examples/OpenCore.conf` 前面的 `#`；
+文件名|所在目录|文件原理|文件功能
+-|-|-|-
+`GrubPreLoader_CLOVER.efi`|`EFI\Yours\efi`|链接到 `EFI\CLOVER\CLOVERX64.efi`|预启动 CloverBootloader
+`GrubPreLoader_CLOVER.png`|`EFI\Yours\efi`|同名显示图标|用于显示 Clover 的启动图标
+`GrubPreLoader_OC.efi`|`EFI\Yours\efi`|链接到 `EFI\OC\OpenCore.efi`|预启动 OpenCore
+`GrubPreLoader_OC.png`|`EFI\Yours\efi`|同名显示图标|用于显示 OC 的启动图标
 
-##### 若是 CloverBootloader
-- 剪切 EFI 相关文件，粘贴到 `EFI\Yours\efi\CLOVER` ；
-- 编辑 `refind.conf` ，删除 位于 `include /EFI/Yours/Settings/menuentry/examples/CLOVER.conf` 前面的 `#`；
+#### 若是 OpenCore
+- 你应该编辑 `config.plist` 设置 `LauncherOption=System` ；
 
+#### 若不用黑果
+- 你可以选定 Clover 或 OC 的启动图标，按下【Delete】，隐藏对应的入口。
 </details>
 
 </details>
@@ -137,15 +135,4 @@ https://www.diskgenius.com/manual/convert-partition-table-style.php
 - [CloverBootloader](https://github.com/CloverHackyColor/CloverBootloader) 的 DUET；
 - [OpenCore](https://github.com/acidanthera/OpenCorePkg) 的 DUET；
 
-## 🧁请我吃块巧克力🍫
-<details>
-<summary>🖱️点击展开查看🖱️</summary>
-我没有父亲；没人给我过生日；没人为我买蛋糕🎂。<br/>
-如果你愿意，请我吃块巧克力🍫。<br/>
-我需要巧克力🍫帮助我释放内啡肽与多巴胺来缓解痛苦。<br/>
-我将会非常感谢您，仙女姐姐🧚‍ 或 玉树豪侠🦸‍♂️。<br/>
-<img src="https://github.com/M-L-P/Yours/assets/69227436/f094f056-9420-4dd5-beec-4ccecff20a1e" width="300px"><br/>
-<img src="https://github.com/M-L-P/Yours/assets/69227436/8608e193-3c4d-4926-8171-7944e881d95f" width="300px">
-
-[🧚仙女豪侠🦸‍♂️ 名单](https://github.com/M-L-P/.github/blob/main/list/README.md)
-</details>
+## [🧁请我吃块巧克力🍫](https://github.com/M-L-P/.github/blob/main/chocolate/chocolate.md)
