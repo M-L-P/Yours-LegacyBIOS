@@ -28,13 +28,17 @@ Your own usual rEFInd's sign for LegacyBIOS.<br/>
 - NVMe 固態 需要 使用 `boot7`；
 #### 工作原理
 [Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot`]=>[`CLOVERX64.efi`(鏈接到 to `Yours_x64.efi`)]=>[Yours]<br/>
+[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot6`]=>[`CLOVERX64.efi`(鏈接到 to `Yours_x64.efi`)]=>[Yours]<br/>
 [Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot7`]=>[`CLOVERX64.efi`(鏈接到 to `Yours_x64.efi`)]=>[Yours]<br/>
 [Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot5`]=>[`CLOVERX64.efi`(鏈接到 to `Yours_x64.efi`)]=>[Yours]<br/>
 [Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot0`]=>[`OpenCore.efi`(鏈接到 to `Yours_x64.efi`)]=>[Yours]<br/>
-- 默認情況， `boot`，是 Clover 的 `boot6`；
+[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot1`]=>[`OpenCore.efi`(鏈接到 to `Yours_x64.efi`)]=>[Yours]<br/>
+- 默認情況， `boot`；
+- 按下 6， 是 Clover 的 `boot6`；
 - 按下 7， 是 Clover 的 `boot7`；
 - 按下 5， 是 Clover 的 `boot5`；
 - 按下 0， `boot0`，OpenCore 的 `bootx64`；
+- 按下 1， `boot1`，OpenCore 的 `bootx64-blockio`；
 #### 文件結構樹狀圖
 <img src="https://raw.githubusercontent.com/M-L-P/.github/main/screenshots/Yours-LegacyBIOS/Yours-LegacyBIOS.png">
 

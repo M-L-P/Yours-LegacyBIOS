@@ -27,14 +27,18 @@ It can save your old PC and make it support 64bit UEFI.
 - Internal SATA disk;
 - NVMe SSD should be with `boot7`;
 #### Working Principle
-[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot`]=>[`CLOVERX64.efi`(Linked to `Yours_x64.efi`)]=>[Yours]
-[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot7`]=>[`CLOVERX64.efi`(Linked to `Yours_x64.efi`)]=>[Yours]
-[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot5`]=>[`CLOVERX64.efi`(Linked to `Yours_x64.efi`)]=>[Yours]
-[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot0`]=>[`OpenCore.efi`(Linked to `Yours_x64.efi`)]=>[Yours]
-- By default, `boot`, `boot6` of Clover;
+[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot`]=>[`CLOVERX64.efi`(Linked to `Yours_x64.efi`)]=>[Yours]<br/>
+[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot6`]=>[`CLOVERX64.efi`(Linked to `Yours_x64.efi`)]=>[Yours]<br/>
+[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot7`]=>[`CLOVERX64.efi`(Linked to `Yours_x64.efi`)]=>[Yours]<br/>
+[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot5`]=>[`CLOVERX64.efi`(Linked to `Yours_x64.efi`)]=>[Yours]<br/>
+[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot0`]=>[`OpenCore.efi`(Linked to `Yours_x64.efi`)]=>[Yours]<br/>
+[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot1`]=>[`OpenCore.efi`(Linked to `Yours_x64.efi`)]=>[Yours]<br/>
+- By default, `boot`;
+- Pressing 6, `boot6` of Clover;
 - Pressing 7, `boot7` of Clover;
 - Pressing 5, `boot5` of Clover;
 - Pressing 0, `boot0`, `bootx64` of OpenCore;
+- Pressing 1, `boot1`, `bootX64-blockio` of OpenCore;
 #### File Tree
 <img src="https://raw.githubusercontent.com/M-L-P/.github/main/screenshots/Yours-LegacyBIOS/Yours-LegacyBIOS.png">
 
