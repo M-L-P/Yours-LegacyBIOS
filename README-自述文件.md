@@ -1,3 +1,5 @@
+- [🖱️点击跳转查看🖱️](https://github.com/M-L-P/rEFInd-theme-Yours)<br/>
+
 <div align="center">
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/M-L-P/Yours-LegacyBIOS)](https://github.com/M-L-P/Yours-LegacyBIOS/releases/latest)
@@ -12,7 +14,6 @@
 
 <h1 align="center">Yours-LegacyBIOS</h1>
 
-- [🖱️Click to Jump to Yours🖱️](https://github.com/M-L-P/rEFInd-theme-Yours)<br/>
 [Y-o-u-r-s](https://github.com/M-L-P/rEFInd-theme-Yours),<br/>
 Your own usual rEFInd's sign for LegacyBIOS.<br/>
 依赖于 [CloverBootloader](https://github.com/CloverHackyColor/CloverBootloader) 的 DUET，Legacy BIOS 能够运行 rEFInd。<br/>
