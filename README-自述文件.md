@@ -144,4 +144,4 @@ https://www.diskgenius.com/manual/convert-partition-table-style.php
 - [CloverBootloader](https://github.com/CloverHackyColor/CloverBootloader) 的 DUET；
 - [OpenCore](https://github.com/acidanthera/OpenCorePkg) 的 DUET；
 
-## [🧁请我吃块巧克力🍫](https://github.com/M-L-P/.github/blob/main/chocolate/chocolate.md)
+## [🧁请我吃块巧克力🍫](https://github.com/M-L-P/.github/blob/main/profile/chocolate/README.md)

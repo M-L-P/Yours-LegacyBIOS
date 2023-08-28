@@ -144,4 +144,4 @@ If you like it and are looking forward to the coming update, you can star it.�
 - DUET of [CloverBootloader](https://github.com/CloverHackyColor/CloverBootloader);
 - DUET of [OpenCore](https://github.com/acidanthera/OpenCorePkg);
 
-## [🧁Buy me a piece of chocolate🍫](https://github.com/M-L-P/.github/blob/main/chocolate/chocolate.md)
+## [🧁Buy me a piece of chocolate🍫](https://github.com/M-L-P/.github/blob/main/profile/chocolate/README.md)
