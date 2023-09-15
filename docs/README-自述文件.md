@@ -17,7 +17,7 @@
 
 [Y-o-u-r-s](https://github.com/M-L-P/rEFInd-theme-Yours),<br/>
 Your own usual rEFInd's sign for LegacyBIOS.<br/>
-依赖于 [CloverBootloader](https://github.com/CloverHackyColor/CloverBootloader) 的 DUET，Legacy BIOS 能够运行 rEFInd。<br/>
+依赖于 [CloverBootloader](https://github.com/CloverHackyColor/CloverBootloader) 或 [OpenCore](https://github.com/acidanthera/OpenCorePkg) 的 DUET，Legacy BIOS 能够运行 rEFInd。<br/>
 它能够拯救你的旧电脑，使其支持 64位 的 UEFI，化腐朽为神奇。
 #### 你的设备满足以下情况中的一种，
 - 不支持 64bit UEFI，
