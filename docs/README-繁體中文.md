@@ -29,12 +29,12 @@ Your own usual rEFInd's sign for LegacyBIOS.<br/>
 - 內置 SATA 硬盤；
 - NVMe 固態 需要 使用 `boot7`；
 #### 工作原理
-[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot`]=>[`CLOVERX64.efi`(鏈接到 to `Yours_x64.efi`)]=>[Yours]<br/>
-[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot6`]=>[`CLOVERX64.efi`(鏈接到 to `Yours_x64.efi`)]=>[Yours]<br/>
-[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot7`]=>[`CLOVERX64.efi`(鏈接到 to `Yours_x64.efi`)]=>[Yours]<br/>
-[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot5`]=>[`CLOVERX64.efi`(鏈接到 to `Yours_x64.efi`)]=>[Yours]<br/>
-[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot0`]=>[`OpenCore.efi`(鏈接到 to `Yours_x64.efi`)]=>[Yours]<br/>
-[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot1`]=>[`OpenCore.efi`(鏈接到 to `Yours_x64.efi`)]=>[Yours]<br/>
+[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot`]=>[`Yours_x64.efi`]=>[Yours]<br/>
+[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot6`]=>[`Yours_x64.efi`]=>[Yours]<br/>
+[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot7`]=>[`Yours_x64.efi`]=>[Yours]<br/>
+[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot5`]=>[`Yours_x64.efi`]=>[Yours]<br/>
+[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot0`]=>[`Yours_x64.efi`]=>[Yours]<br/>
+[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot1`]=>[`Yours_x64.efi`]=>[Yours]<br/>
 - 默認情況， `boot`；
 - 按下 6， 是 Clover 的 `boot6`；
 - 按下 7， 是 Clover 的 `boot7`；
