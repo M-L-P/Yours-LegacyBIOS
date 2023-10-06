@@ -1,0 +1,40 @@
+name: 打包
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - '.github/workflows/打包.yml'
+      - 'ESP/**'
+  pull_request:
+    branches: [ "main" ]
+    paths:
+      - '.github/workflows/打包.yml'
+      - 'ESP/**'
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        type: [Yours-LegacyBIOS]
+
+    name: 打包 ${{ matrix.type }}
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: 归档 ${{ matrix.type }}
+      run: |
+        cd ESP/EFI
+        git clone https://github.com/M-L-P/rEFInd-theme-Yours.git
+        sudo rm -r ./rEFInd-theme-Yours/docs
+        sudo rm -r ./rEFInd-theme-Yours/.git
+        sudo cp -r ./rEFInd-theme-Yours/* ./Yours
+        sudo rm -r ./rEFInd-theme-Yours
+        ls -l
+        
+    - name: 上传到此处
+      uses: actions/upload-artifact@v3.1.0
+      with:
+        name: ${{ matrix.type }}
+        path: ESP
