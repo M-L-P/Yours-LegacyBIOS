@@ -118,10 +118,10 @@ https://www.diskgenius.com/manual/convert-partition-table-style.php
 
 文件名|所在目录|文件原理|文件功能
 -|-|-|-
-`GrubPreLoader_CLOVER.efi`|`EFI\Yours\efi`|链接到 `EFI\CLOVER\CLOVERX64.efi`|预启动 CloverBootloader
-`GrubPreLoader_CLOVER.png`|`EFI\Yours\efi`|同名显示图标|用于显示 Clover 的启动图标
-`GrubPreLoader_OC.efi`|`EFI\Yours\efi`|链接到 `EFI\OC\OpenCore.efi`|预启动 OpenCore
-`GrubPreLoader_OC.png`|`EFI\Yours\efi`|同名显示图标|用于显示 OC 的启动图标
+`GRUB_PreLoader_CLOVER.efi`|`EFI\Yours\efi\Hackintosh`|链接到 `EFI\CLOVER\CLOVERX64.efi`|预启动 CloverBootloader
+`GRUB_PreLoader_CLOVER.png`|`EFI\Yours\efi\Hackintosh`|同名显示图标|用于显示 Clover 的启动图标
+`GRUB_PreLoader_OC.efi`|`EFI\Yours\efi\Hackintosh`|链接到 `EFI\OC\OpenCore.efi`|预启动 OpenCore
+`GRUB_PreLoader_OC.png`|`EFI\Yours\efi\Hackintosh`|同名显示图标|用于显示 OC 的启动图标
 
 #### 若是 OpenCore
 - 你应该编辑 `config.plist` 设置 `LauncherOption=System` ；
