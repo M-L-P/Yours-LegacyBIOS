@@ -36,4 +36,6 @@ jobs:
       uses: actions/upload-artifact@v3.1.0
       with:
         name: ${{ matrix.type }}
-        path: ESP
+        path: |
+          ./ESP
+          ./Boot_Record
