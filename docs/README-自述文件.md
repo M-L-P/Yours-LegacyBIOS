@@ -43,7 +43,7 @@ Your own usual rEFInd's sign for LegacyBIOS.<br/>
 - 按下 0， `boot0`，OpenCore 的 `bootx64`；
 - 按下 1， `boot1`，OpenCore 的 `bootx64-blockio`；
 #### 文件结构树状图
-<img src="https://raw.githubusercontent.com/M-L-P/.github/main/screenshots/Yours-LegacyBIOS/Yours-LegacyBIOS.png">
+<img src="https://gh.sixyin.com/https://raw.githubusercontent.com/M-L-P/.github/main/screenshots/Yours-LegacyBIOS/Yours-LegacyBIOS.png">
 
 -----------------------------------------------------------------------------------------------------------------------------------
 ## 💻️预览👀
@@ -51,8 +51,8 @@ Your own usual rEFInd's sign for LegacyBIOS.<br/>
 <details>
 <summary>🖱️点击展开查看🖱️</summary>
 
-<img src="https://raw.githubusercontent.com/M-L-P/.github/main/screenshots/Yours-LegacyBIOS/about.duet.png">
-<img src="https://raw.githubusercontent.com/M-L-P/.github/main/screenshots/Yours/M.big.png">
+<img src="https://gh.sixyin.com/https://raw.githubusercontent.com/M-L-P/.github/main/screenshots/Yours-LegacyBIOS/about.duet.png">
+<img src="https://gh.sixyin.com/https://raw.githubusercontent.com/M-L-P/.github/main/screenshots/Yours/M.big.png">
 </details>
 
 ## 🧭指南⬇️
