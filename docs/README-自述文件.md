@@ -145,5 +145,6 @@ https://www.diskgenius.com/manual/convert-partition-table-style.php
 - [a1ive](https://github.com/a1ive) 的 [grub2-filemanager](https://github.com/a1ive/grub2-filemanager)；
 - [CloverBootloader](https://github.com/CloverHackyColor/CloverBootloader) 的 DUET；
 - [OpenCore](https://github.com/acidanthera/OpenCorePkg) 的 DUET；
+- 六音的 github 加速器，用于显示图片，https://gh.sixyin.com/ ；
 
 ## [🧁请我吃块巧克力🍫](https://github.com/M-L-P/.github/blob/main/profile/chocolate/README.md)
