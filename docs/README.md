@@ -31,20 +31,20 @@ It can save your old PC and make it support 64bit UEFI.
 ![image](https://user-images.githubusercontent.com/69227436/213923710-120c5a02-30ea-4005-b2fe-c8e9adc7b6d7.png)
 - GPT disk;
 - Internal SATA disk;
-- NVMe SSD should be with `boot7`;
+- NVMe SSD should be with ~~`boot7`~~`boot0` or `boot1`;
 #### Working Principle
 [Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot`]=>[`Yours_x64.efi`]=>[Yours]<br/>
-[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot6`]=>[`Yours_x64.efi`]=>[Yours]<br/>
-[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot7`]=>[`Yours_x64.efi`]=>[Yours]<br/>
+~~[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot6`]=>[`Yours_x64.efi`]=>[Yours]~~<br/>
+~~[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot7`]=>[`Yours_x64.efi`]=>[Yours]~~<br/>
 [Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot5`]=>[`Yours_x64.efi`]=>[Yours]<br/>
 [Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot0`]=>[`Yours_x64.efi`]=>[Yours]<br/>
 [Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot1`]=>[`Yours_x64.efi`]=>[Yours]<br/>
 - By default, `boot`;
-- Pressing 6, `boot6` of Clover;
-- Pressing 7, `boot7` of Clover;
+- ~~Pressing 6, `boot6` of Clover;~~
+- ~~Pressing 7, `boot7` of Clover;~~
 - Pressing 5, `boot5` of Clover;
-- Pressing 0, `boot0`, `bootx64` of OpenCore;
-- Pressing 1, `boot1`, `bootX64-blockio` of OpenCore;
+- Pressing 0, `boot0`, `bootx64` of OpenCore(recompiled after adding keyboard and mouse drivers and NVMe driver);
+- Pressing 1, `boot1`, `bootX64-blockio` of OpenCore(recompiled after adding keyboard and mouse drivers and NVMe driver);
 #### File Tree
 <img src="https://raw.githubusercontent.com/M-L-P/.github/main/screenshots/Yours-LegacyBIOS/Yours-LegacyBIOS.png">
 
@@ -85,10 +85,10 @@ https://www.diskgenius.com/manual/convert-partition-table-style.php
 - - Or create a FAT32 before the first partition;
 #### Cover MBR and PBR
 - Open BOOTICE;
-- `zip: Boot_Record\MBR.bin` covers MBR of Internal SATA disk;<br/>
+- `zip: Boot_Record\mbr(boot0af)` covers MBR of Internal SATA disk;<br/>
   ![mbr](https://github.com/M-L-P/Yours-LegacyBIOS/assets/69227436/af8d8cb4-3e10-48a8-ab06-71a8e69ed3ba)
 
-- `zip: Boot_Record\PBR.bin` covers PBR of that FAT32;<br/>
+- `zip: Boot_Record\pbr(boot1f32alt)` covers PBR of that FAT32;<br/>
   ![pbr](https://github.com/M-L-P/Yours-LegacyBIOS/assets/69227436/a2a6f8f1-6b28-48a3-90fc-b7ed140adc86)
 
 #### Turn FAT32 into ESP
@@ -109,8 +109,8 @@ https://www.diskgenius.com/manual/convert-partition-table-style.php
 #### Copy Yours in ESP
 - Copy the file `zip: ESP\boot` into `ESP: \`;
 - Copy the file `zip: ESP\boot5` into `ESP: \`;
-- Copy the file `zip: ESP\boot6` into `ESP: \`;
-- Copy the file `zip: ESP\boot7` into `ESP: \`;
+- ~~Copy the file `zip: ESP\boot6` into `ESP: \`~~;
+- ~~Copy the file `zip: ESP\boot7` into `ESP: \`~~;
 - Copy the file `zip: ESP\boot0` into `ESP: \`;
 - Copy the file `zip: ESP\boot1` into `ESP: \`;
 - Copy the folder `zip: ESP\EFI\Yours` into `ESP: \EFI`;

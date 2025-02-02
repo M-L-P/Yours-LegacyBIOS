@@ -28,20 +28,20 @@ Your own usual rEFInd's sign for LegacyBIOS.<br/>
 ![image](https://user-images.githubusercontent.com/69227436/213923710-120c5a02-30ea-4005-b2fe-c8e9adc7b6d7.png)
 - GPT 磁碟；
 - 內建 SATA 硬碟；
-- NVMe 固態 需要 使用 `boot7`；
+- NVMe 固態 需要 使用 ~~`boot7`~~`boot0` 或 `boot1`；
 #### 工作原理
 [Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot`]=>[`Yours_x64.efi`]=>[Yours]<br/>
-[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot6`]=>[`Yours_x64.efi`]=>[Yours]<br/>
-[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot7`]=>[`Yours_x64.efi`]=>[Yours]<br/>
+~~[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot6`]=>[`Yours_x64.efi`]=>[Yours]~~<br/>
+~~[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot7`]=>[`Yours_x64.efi`]=>[Yours]~~<br/>
 [Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot5`]=>[`Yours_x64.efi`]=>[Yours]<br/>
 [Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot0`]=>[`Yours_x64.efi`]=>[Yours]<br/>
 [Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot1`]=>[`Yours_x64.efi`]=>[Yours]<br/>
 - 預設情況， `boot`；
-- 按下 6， 是 Clover 的 `boot6`；
-- 按下 7， 是 Clover 的 `boot7`；
+- ~~按下 6， 是 Clover 的 `boot6`；~~
+- ~~按下 7， 是 Clover 的 `boot7`；~~
 - 按下 5， 是 Clover 的 `boot5`；
-- 按下 0， `boot0`，OpenCore 的 `bootx64`；
-- 按下 1， `boot1`，OpenCore 的 `bootx64-blockio`；
+- 按下 0， `boot0`，OpenCore 的 `bootx64`（新增了鍵鼠驅動和NVMe驅動後重新編譯）；
+- 按下 1， `boot1`，OpenCore 的 `bootx64-blockio`（新增了鍵鼠驅動和NVMe驅動後重新編譯）；
 #### 檔案結構樹狀圖
 <img src="https://raw.githubusercontent.com/M-L-P/.github/main/screenshots/Yours-LegacyBIOS/Yours-LegacyBIOS.png">
 
@@ -82,10 +82,10 @@ https://www.diskgenius.com/manual/convert-partition-table-style.php
 - - 或者 在第一個分割槽前面 建立一個 FAT32 分割槽。
 #### 覆蓋 MBR 和 PBR
 - 開啟 BOOTICE；
-- `zip: Boot_Record\MBR.bin` 用來覆蓋內建 SATA 硬碟的 MBR；<br/>
+- `zip: Boot_Record\mbr(boot0af)` 用來覆蓋內建 SATA 硬碟的 MBR；<br/>
   ![mbr](https://github.com/M-L-P/Yours-LegacyBIOS/assets/69227436/af8d8cb4-3e10-48a8-ab06-71a8e69ed3ba)
 
-- `zip: Boot_Record\PBR.bin` 用來覆蓋 FAT32 的 PBR；<br/>
+- `zip: Boot_Record\pbr(boot1f32alt)` 用來覆蓋 FAT32 的 PBR；<br/>
   ![pbr](https://github.com/M-L-P/Yours-LegacyBIOS/assets/69227436/a2a6f8f1-6b28-48a3-90fc-b7ed140adc86)
 
 #### 把 FAT32 變成 ESP
@@ -106,8 +106,8 @@ https://www.diskgenius.com/manual/convert-partition-table-style.php
 #### 複製 Yours 到 ESP 分割槽
 - 複製檔案 `zip: ESP\boot` 到 `ESP: \`；
 - 複製檔案 `zip: ESP\boot5` 到 `ESP: \`；
-- 複製檔案 `zip: ESP\boot6` 到 `ESP: \`；
-- 複製檔案 `zip: ESP\boot7` 到 `ESP: \`；
+- ~~複製檔案 `zip: ESP\boot6` 到 `ESP: \`~~；
+- ~~複製檔案 `zip: ESP\boot7` 到 `ESP: \`~~；
 - 複製檔案 `zip: ESP\boot0` 到 `ESP: \`；
 - 複製檔案 `zip: ESP\boot1` 到 `ESP: \`；
 - 複製資料夾 `zip: ESP\EFI\Yours` 到 `ESP: \EFI`；

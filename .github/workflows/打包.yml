@@ -4,12 +4,12 @@ on:
     branches: [ "main" ]
     paths:
       - '.github/workflows/打包.yml'
-      - 'ESP/**'
+      - 'docs/Changelog.md'
   pull_request:
     branches: [ "main" ]
     paths:
       - '.github/workflows/打包.yml'
-      - 'ESP/**'
+      - 'docs/Changelog.md'
 
 jobs:
   build:
@@ -33,7 +33,7 @@ jobs:
         ls -l
         
     - name: 上传到此处
-      uses: actions/upload-artifact@v3.1.0
+      uses: actions/upload-artifact@v4
       with:
         name: ${{ matrix.type }}
         path: |
