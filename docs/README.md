@@ -1,6 +1,3 @@
-# Sorry, there is something wrong with the MBR and PBR. Please wait the next version or download CloverBootloader to get its Boot Records.
-
-
 [icons](https://github.com/M-L-P/icons)|[rEFInd-theme-Yours](https://github.com/M-L-P/rEFInd-theme-Yours)|[Yours-LegacyBIOS](https://github.com/M-L-P/Yours-LegacyBIOS)|[Yours-UEFI](https://github.com/M-L-P/Yours-UEFI)
 -|-|-|-
 
