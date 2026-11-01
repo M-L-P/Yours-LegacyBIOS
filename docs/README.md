@@ -1,3 +1,12 @@
+Dear friends:<br/>
+  I've been unwell. <br/>
+  Recovering from this illness has been slow and grueling, <br/>
+leaving me completely worn out.<br/>
+  I'm pausing updates for now,<br/>
+and will resume once I'm feeling a bit better.<br/>
+<br/>
+<br/>
+<br/>
 [icons](https://github.com/M-L-P/icons)|[rEFInd-theme-Yours](https://github.com/M-L-P/rEFInd-theme-Yours)|[Yours-LegacyBIOS](https://github.com/M-L-P/Yours-LegacyBIOS)|[Yours-UEFI](https://github.com/M-L-P/Yours-UEFI)
 -|-|-|-
 

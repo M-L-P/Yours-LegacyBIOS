@@ -1,3 +1,9 @@
+亲爱的朋友们：<br/>
+    我生病了。病去如抽丝，掉了几层皮。<br/>
+	暂停更新，等我好转一些。<br/>
+<br/>
+<br/>
+<br/>
 [icons](https://github.com/M-L-P/icons)|[rEFInd-theme-Yours](https://github.com/M-L-P/rEFInd-theme-Yours)|[Yours-LegacyBIOS](https://github.com/M-L-P/Yours-LegacyBIOS)|[Yours-UEFI](https://github.com/M-L-P/Yours-UEFI)
 -|-|-|-
 
@@ -26,9 +32,12 @@ Your own usual rEFInd's sign for LegacyBIOS.<br/>
 - - 仅支持 Legacy BIOS，不支持 UEFI；
 - GPU/vBIOS 不支持 UEFI；(如下图)<br/>
 ![image](https://user-images.githubusercontent.com/69227436/213923710-120c5a02-30ea-4005-b2fe-c8e9adc7b6d7.png)
-- GPT 磁盘；
-- 内置 SATA 硬盘；
+#### 特色
+- 支持 GPT 磁盘；
+- 支持内置 SATA 硬盘；
 - NVMe 固态 需要 使用 ~~`boot7`~~`boot0` 或 `boot1`；
+- 旧电脑一般使用 `boot0` 作为默认的 `boot`，
+- - 新电脑附带的 USB 3.0 接口 使用`boot1`作为默认的 `boot`，因为 USB 3.0 接口无法被 EhciDxe 驱动，但可以被 Block I/O 驱动；
 #### 工作原理
 [Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot`]=>[`Yours_x64.efi`]=>[Yours]<br/>
 ~~[Power On]=>[Legacy BIOS]=>[MBR]=>[PBR]=>[`boot6`]=>[`Yours_x64.efi`]=>[Yours]~~<br/>
@@ -43,7 +52,7 @@ Your own usual rEFInd's sign for LegacyBIOS.<br/>
 - 按下 0， `boot0`，OpenCore 的 `bootx64`（添加了键鼠驱动和NVMe驱动后重新编译）；
 - 按下 1， `boot1`，OpenCore 的 `bootx64-blockio`（添加了键鼠驱动和NVMe驱动后重新编译）；
 #### 文件结构树状图
-<img src="https://gh.sixyin.com/https://raw.githubusercontent.com/M-L-P/.github/main/screenshots/Yours-LegacyBIOS/Yours-LegacyBIOS.png">
+<img src="https://github.moeyy.xyz/https://raw.githubusercontent.com/M-L-P/.github/main/screenshots/Yours-LegacyBIOS/Yours-LegacyBIOS.png">
 
 -----------------------------------------------------------------------------------------------------------------------------------
 ## 💻️预览👀
@@ -51,8 +60,8 @@ Your own usual rEFInd's sign for LegacyBIOS.<br/>
 <details>
 <summary>🖱️点击展开查看🖱️</summary>
 
-<img src="https://gh.sixyin.com/https://raw.githubusercontent.com/M-L-P/.github/main/screenshots/Yours-LegacyBIOS/about.duet.png">
-<img src="https://gh.sixyin.com/https://raw.githubusercontent.com/M-L-P/.github/main/screenshots/Yours/M.big.png">
+<img src="https://github.moeyy.xyz/https://raw.githubusercontent.com/M-L-P/.github/main/screenshots/Yours-LegacyBIOS/about.duet.png">
+<img src="https://github.moeyy.xyz/https://raw.githubusercontent.com/M-L-P/.github/main/screenshots/Yours/M.big.png">
 </details>
 
 ## 🧭指南⬇️
@@ -145,6 +154,6 @@ https://www.diskgenius.com/manual/convert-partition-table-style.php
 - [a1ive](https://github.com/a1ive) 的 [grub2-filemanager](https://github.com/a1ive/grub2-filemanager)；
 - [CloverBootloader](https://github.com/CloverHackyColor/CloverBootloader) 的 DUET；
 - [OpenCore](https://github.com/acidanthera/OpenCorePkg) 的 DUET；
-- 六音的 github 加速器，用于显示图片，https://gh.sixyin.com/ ；
+- moeyy 的 github 加速器，用于显示图片，https://github.moeyy.xyz/ ；
 
 ## [🧁请我吃块巧克力🍫](https://github.com/M-L-P/.github/blob/main/profile/chocolate/README.md)

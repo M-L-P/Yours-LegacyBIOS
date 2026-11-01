@@ -1,3 +1,9 @@
+親愛的朋友們：<br/>
+    我生病了。病去如抽絲，掉了幾層皮。<br/>
+	暫停更新，等我好轉一些。<br/>
+<br/>
+<br/>
+<br/>
 [icons](https://github.com/M-L-P/icons)|[rEFInd-theme-Yours](https://github.com/M-L-P/rEFInd-theme-Yours)|[Yours-LegacyBIOS](https://github.com/M-L-P/Yours-LegacyBIOS)|[Yours-UEFI](https://github.com/M-L-P/Yours-UEFI)
 -|-|-|-
 
